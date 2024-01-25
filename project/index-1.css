@@ -1,0 +1,606 @@
+html,body{
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0px;
+}
+
+.hero{
+    background-image: url('images/Rectangle\ 190.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    padding: 212px 150px;
+}
+
+.hero .intro{
+    display: flex;
+    color: whitesmoke;
+}
+
+.hero .intro .join{
+    width: 50%;
+}
+
+.hero .intro .join p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero .intro .join .linerule{
+    margin-top: -15px;
+    width: 200px;
+    height: 3px;
+    background-color: teal;
+}
+
+.hero .intro .join h1{
+    margin-top: -0.5px;
+    font-size: 68px;
+}
+
+.hero .intro .admission{
+    width: 50%;
+    text-align: right;
+    align-self: center;
+}
+
+.hero .intro .admission h3{
+    color: #5EEBE2;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.hero .intro .admission p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero .intro .admission a{
+    text-decoration: none;
+    background: linear-gradient(270deg, #0c1530 0%, #0DE1AE 100%);
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero .intro .admission a:hover{
+    color: black;
+    background: #ccd2e6 !important;
+
+}
+
+
+.section1{
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 .fpic{
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+}
+
+.section1 .fpic .img{
+    width: 48%;
+    height: 500px;
+    background-image: url('images/Rectangle\ 197.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section1 .fpic .spic{
+    justify-content: space-between;
+    width: 48%;
+}
+
+.section1 .fpic .spic .fimg{
+    width: 100%;
+    height: 48.5%;
+    background-image: url('images/Rectangle\ 197.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section1 .fpic .spic .simg{
+    width: 100%;
+    height: 48.5%;
+    margin-top: 15px;
+    background-image: url('images/Rectangle\ 197.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section1 .text{
+    width: 48%;
+    align-self: center;
+}
+
+.section1 .text .we{
+    color: #B69E43;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section1 .text h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.section1 .text h3 span{
+    background-color: #B69E43;
+}
+
+.section1 .text .empow{
+    color: #818181;
+    font-size: 20px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.section2{
+    padding: 10px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .explor{
+    width: 48.5%;
+    height: 700px;
+    background-image: url('images/Frame\ 3183567.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.section2 .visit {
+    width: 48.5%;
+    height: 700px;
+    background-image: url('images/Frame\ 3183569.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section3{
+    padding: 200px 150px;
+}
+
+.section3 .find{
+    text-align: center;
+}
+
+.section3 .find h3{
+    color: #5C5C5C;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.section3 .find h2{
+    padding: 0px 200px;
+    color: #303136;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 67.20px;
+    word-wrap: break-word;
+}
+
+.section3 .find p{
+    color: #5C5C5C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    padding: 0px 270px 40px;
+}
+
+.section3 .find span a{
+    border-radius: 8px;
+    background-color: #0B36BB;
+    padding: 16px 32px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section3 .find span a:hover{
+    background-color: #092885;
+    transition: 1s;
+}
+
+
+
+
+.section3 .img3{
+    position: absolute;
+    top: 2705px;
+    left: 350px;
+}
+
+.section3 .img4{
+    position: absolute;
+    top: 2750px;
+    right: 310px;
+}
+
+.section3 .img5{
+    position: absolute;
+    top: 2835px;
+    left: 200px;
+}
+
+footer{
+    display: flex;
+}
+
+footer .logo{
+    padding: 80px 100px 35px 150px;
+    background-color: #0D41E1;
+    width: 26%;
+}
+
+footer .logo a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .pages{
+    background-color: #E4BC7E;
+    width: 74%;
+    padding: 80px 120px 35px 50px;
+}
+
+footer .pages .alternate{
+    padding-bottom: 100px;
+    display: flex;
+    width: 100%;
+    
+}
+
+footer .pages .alternate .box{
+    width: 25%;
+}
+
+footer .pages .alternate .box .h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #303136;
+}
+
+footer .pages .alternate .box a{
+    text-decoration: none;
+    color: #303136;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+hr{
+    color: #818181;
+}
+
+footer .pages p{
+    padding: 0px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5C5C5C;
+}
+
+
+/* Max width for Mobile devices (Smartphone) */
+@media (max-width:480px) {
+    .hero{
+        padding: 50px 30px 120px;
+    }
+
+    .hero .intro{
+        display: grid;
+    }
+
+    .hero .intro .join{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .intro .join p{
+        font-size: 24px;
+        text-decoration: underline teal 3px;
+    }
+
+    .hero .intro .join h1{
+        font-size: 60px;
+    }
+
+    .hero .intro .join .linerule{
+        display: none;
+    }
+
+    .hero .intro .admission{
+        margin-top: 60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .intro .admission h3{
+        font-size: 34px;
+    }
+
+    .hero .intro .admission p{
+        font-size: 26px;
+    }
+
+    .hero .intro .admission a{
+        font-size: 16px;
+    }
+
+    .section1{
+        padding: 100px 30px;
+        display: block;
+    }
+
+    .section1 .fpic{
+        width: 100%;
+    }
+
+    .section1 .text{
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .section2{
+        display: block;
+        padding: 0px 30px;
+    }
+
+    .section2 .explor{
+        width: 100%;
+        height: 350px;
+    }
+
+    .section2 .visit{
+        width: 100%;
+        height: 350px;
+        margin-top: 12px;
+    }
+
+    .section3{
+        padding: 130px 40px;
+    }
+
+    .section3 .find{
+        width: 100%;
+    }
+
+    .section3 .find .h3{
+        font-size: 12px;
+    }
+
+    .section3 .find h2{
+        padding: 0px;
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .section3 .find p{
+        padding: 0px 0px 30px;
+    }
+
+    .section3 .find span a{
+        font-size: 14px;
+    }
+
+    .section3 .img1{
+        top: 2700px;
+        left: 8px;
+    }
+
+    .section3 .img2{
+        top: 2745px;
+        right: 8px;
+    }
+
+    .section3 .img3{
+        top: 3055px;
+        left: 2px;
+    }
+
+    .section3 .img3 img{
+        width: 86%;
+    }
+
+    .section3 .img4{
+        top: 3090px;
+        right: 16px;
+    }
+
+    .section3 .img4 img{
+        width: 65%;
+    }
+
+    .section3 .img5{
+        top: 3200px;
+        left: 40px;
+    }
+
+    .section3 .img5 img{
+        width: 94%;
+    }
+
+    footer{
+        display: block;
+    }
+
+    footer .logo{
+        width: 100%;
+        padding: 50px 30px;
+    }
+
+    footer .pages{
+        width: auto;
+        display: block;
+        padding: 20px;
+    }
+
+    footer .pages .alternate{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding-bottom: 50px;
+    }
+
+    footer .pages .alternate .box{
+        width: 100%;
+    }
+
+    footer .pages p{
+        font-size: 14px;
+        padding: 0px;
+    }
+}
+
+
+/* Max width for iPads, Tablets */
+@media only screen and (max-width:768px) and (min-width:481px) {
+    .hero{
+        padding: 100px 50px;
+    }
+
+    .hero .intro .join h1{
+        font-size: 47px;
+    }
+
+    .hero .intro .admission a{
+        font-size: 14px;
+        padding: 12px 28px;
+    }
+
+    .section1{
+        padding: 100px 50px 50px;
+        display: block;
+    }
+
+    .section1 .fpic{
+        width: 100%;
+    }
+
+    .section1 .text{
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .section1 .text .we{
+        font-size: 20px;
+    }
+
+    .section2{
+        padding: 0px 50px;
+    }
+
+    .section2 .explor{
+        width: 49.2%;
+        height: 450px;
+    }
+
+    .section2 .visit{
+        width: 49.2%;
+        height: 450px;
+    }
+
+    .section3{
+        padding: 100px 50px 150px;
+    }
+
+    .section3 .find h2{
+        padding: 0px;
+        font-size: 46px;
+        line-height: 48px;
+    }
+
+    .section3 .find p{
+        padding: 0px 50px 50px;
+        margin-top: -20px;
+    }
+
+    .section3 .find span a{
+        font-size: 18px;
+    }
+
+    .section3 .img1{
+        top: 1916px;
+        left: 68px;
+    }
+
+    .section3 .img1 img{
+        width: 95px;
+    }
+
+    .section3 .img2{
+        top: 1910px;
+        right: 60px;
+    }
+
+    .section3 .img2 img{
+        width: 54px;
+    }
+
+    .section3 .img3{
+        top: 2212px;
+        left: 32px;
+    }
+
+    .section3 .img3 img{
+        width: 48px;
+    }
+
+    .section3 .img4{
+        top: 2250px;
+        right: 20px;
+    }
+
+    .section3 .img4 img{
+        width: 95px;
+    }
+
+    .section3 .img5{
+        top: 2350px;
+        left: 95px;
+    }
+
+    .section3 .img5 img{
+        width: 70px;
+    }
+
+    footer .logo{
+        padding: 50px 60px 0px 30px;
+    }
+
+    footer .pages{
+        display: block;
+        padding: 25px 30px 0px;
+    }
+
+    footer .pages .alternate{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding-bottom: 30px;
+    }
+
+    footer .pages .alternate .box{
+        width: 100%;
+    }
+
+    footer .pages p{
+        font-size: 12px;
+        padding: 0px;
+    }
+}
